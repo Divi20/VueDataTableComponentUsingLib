@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <demo-table/>
+  </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import DemoTable from 'dummylib/src/components/DemoTable.vue'
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    HelloWorld
+    DemoTable
+    // DemoTable
   }
 }
 </script>
